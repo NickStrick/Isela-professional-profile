@@ -197,14 +197,24 @@ export const mockSiteConfig: SiteConfig = {
             { label: "Outcome", value: "More engagement and clearer calls-to-action" },
           ],
         },
-        {
-          title: "Mission-aligned mindset",
-          body:
-            "I’m motivated by work that helps people and strengthens communities, and I bring that care into how I represent organizations publicly and internally.",
-          meta: [{ label: "Outcome", value: "Stronger brand trust + better stakeholder experience" }],
-        },
+        // {
+        //   title: "Mission-aligned mindset",
+        //   body:
+        //     "I’m motivated by work that helps people and strengthens communities, and I bring that care into how I represent organizations publicly and internally.",
+        //   meta: [{ label: "Outcome", value: "Stronger brand trust + better stakeholder experience" }],
+        // },
       ],
     },
+    {
+      visible:true,
+      id: "floating",
+      type: "sectional",
+      title: "Mission-aligned mindset",
+      body: "I’m motivated by work that helps people and strengthens communities, and I bring that care into how I represent organizations publicly and internally.",
+      backgroundUrl: backdrop.src,
+      overlay: true,
+      height: "sm",
+      },
 
         // ======================
     // INTERESTS / FUTURE DIRECTION (replaces “Target roles”)
