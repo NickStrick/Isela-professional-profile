@@ -279,6 +279,7 @@ export const mockSiteConfig: SiteConfig = {
   id: "testimonials",
   type: "testimonials",
   visible: true,
+  
   title: "What Colleagues Say",
   subtitle: "Clarity • Reliability • People-First Communication",
   items: [
@@ -305,7 +306,7 @@ export const mockSiteConfig: SiteConfig = {
     },
   ],
   style: {
-    variant: "ink",
+    variant: "carousel",
     columns: 3,
     showQuoteIcon: true,
     rounded: "xl",
