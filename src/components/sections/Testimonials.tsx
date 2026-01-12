@@ -26,7 +26,8 @@ export function Testimonials({
   subtitle,
   items,
   style,
-  id
+  id,
+  backgroundClass
 }: TestimonialsSection) {
   const {
     variant = 'carousel',
@@ -69,12 +70,26 @@ export function Testimonials({
     <section
       id={id}
       className={[
-        'section !pb-[6rem]',
+        'section !pb-[6rem] relative',
         background === 'band'
           ? 'bg-[color-mix(in_srgb,var(--primary)_8%,transparent)]'
           : '',
+        backgroundClass || '',
       ].join(' ')}
     >
+      <div className="text-[var(--bg-2)] top-wave" aria-hidden>
+        <svg
+  viewBox="0 0 1440 140"
+  className="w-full h-[70px]"
+  preserveAspectRatio="none"
+>
+  <path
+    d="M0,80 C240,140 480,0 720,60 C960,120 1200,20 1440,80 L1440,140 L0,140 Z"
+    fill="var(--primary)"
+    fillOpacity="0.08"
+  />
+</svg>
+      </div>
       <AnimatedSection className="mx-auto max-w-6xl">
         <div className="text-center max-w-3xl mx-auto mb-10">
           {title && <h2 className="text-4xl md:text-5xl font-extrabold">{title}</h2>}

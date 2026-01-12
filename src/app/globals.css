@@ -579,3 +579,13 @@ max-height: calc(100vh - 135px);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.has-top-wave{
+  /* overflow: hidden; */
+}
+.has-top-wave .top-wave{
+  position: absolute;
+    width: 100vw;
+    z-index: 2;
+   top: -70px;
+   margin-left: -2rem;
+}
