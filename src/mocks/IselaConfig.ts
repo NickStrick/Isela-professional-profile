@@ -298,7 +298,7 @@ export const mockSiteConfig: SiteConfig = {
     },
     {
       quote:
-        "Isela brings clarity, car and connection to every interaction. She communicates complex information in a way that makes people feel comfortable, informed, and respected.",
+        "Isela brings clarity, care and connection to every interaction. She communicates complex information in a way that makes people feel comfortable, informed, and respected.",
       name: "Madeline Morland",
       role: "Co Worker - Northwestern Genetic Counseling",
        avatarUrl: madeline.src,
