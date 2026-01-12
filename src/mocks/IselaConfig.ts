@@ -11,6 +11,10 @@ import team from "../../public/isela/team.jpg";
 import teamwork from "../../public/isela/teamwork.jpg";
 import leaf from "../../public/isela/leaf.jpg";
 
+import fernando from "../../public/isela/fernando.jpg";
+import madeline from "../../public/isela/madeline.jpg";
+import krystal from "../../public/isela/krystal.jpg";
+
 const LINKEDIN = "https://www.linkedin.com/in/iselaiortiz/";
 const TIKTOK = "https://www.tiktok.com/@cutiewithanxiety";
 
@@ -270,6 +274,45 @@ export const mockSiteConfig: SiteConfig = {
         },
       ],
     },
+     // TESTIMONIALS
+   {
+  id: "testimonials",
+  type: "testimonials",
+  visible: true,
+  title: "What Colleagues Say",
+  subtitle: "Clarity • Reliability • People-First Communication",
+  items: [
+    {
+      quote:
+        "She is highly organized, dependable, and great at following through. Isela brings determination, mission alignment, and a commitment to excellence to any team that she is a part of. Really a one of a kind team member.",
+      name: "Krystal Robledo, Esq.",
+      role: "Mentor - Civil Rights Attorney",
+       avatarUrl: krystal.src,
+    },
+    {
+      quote:
+        "Isela connects easily with diverse audiences and represents our work with professionalism. The way she engages the community around her is inspiring. Her presentations are thoughtful, clear, and engaging.",
+      name: "Fernando Rayas",
+      role: "Founder and Organizer - Connecting Dots for LatinX professionals",
+      avatarUrl: fernando.src,
+    },
+    {
+      quote:
+        "Isela brings clarity, car and connection to every interaction. She communicates complex information in a way that makes people feel comfortable, informed, and respected.",
+      name: "Madeline Morland",
+      role: "Co Worker - Northwestern Genetic Counseling",
+       avatarUrl: madeline.src,
+    },
+  ],
+  style: {
+    variant: "ink",
+    columns: 3,
+    showQuoteIcon: true,
+    rounded: "xl",
+    background: "band",
+  },
+},
+
      // CTA (OPTIONAL)
     {
       visible: true,
