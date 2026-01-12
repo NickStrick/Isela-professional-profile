@@ -44,7 +44,7 @@ export const mockSiteConfig: SiteConfig = {
         { label: "Strengths", href: "#value" },
         
         { label: "Direction", href: "#direction" },
-        { label: "Content ", href: "#content" },
+        { label: "Testimonials ", href: "#testimonials" },
         
         { label: "Contact", href: "#contact" },
       ],
