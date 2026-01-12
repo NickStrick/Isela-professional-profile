@@ -4,14 +4,14 @@
 
 /* src/app/globals.css  (append to yours) */
 :root {
- --primary: #ae00ff;   /* hot pink */
-  --accent:  #fa5dff;   /* bright cyan */
+  --primary: #d400ff;   /* hot pink */
+  --accent:  #0093ce;   /* bright cyan */
   --bg:      #fff0f6;
   --bg-2:      #c9aeb9;   /* pastel pink */
   --fg:      #1f1f1f;   /* near-black */
   --muted:   #292929;
-  --band-1:  #fa5dff;
-  --band-2:  #ae00ff;
+  --band-1:  #0093ce;
+  --band-2:  #d400ff;
   --text-1: black;
   --text-2: white;
   --text-accent: white;
@@ -72,14 +72,14 @@ body[data-theme="festival"] {
 }
 
 body[data-theme="candy"] {
-  --primary: #ae00ff;   /* hot pink */
+  --primary: #d400ff;   /* hot pink */
   --accent:  #0093ce;   /* bright cyan */
   --bg:      #fff0f6;
   --bg-2:      #c9aeb9;   /* pastel pink */
   --fg:      #1f1f1f;   /* near-black */
   --muted:   #292929;
   --band-1:  #0093ce;
-  --band-2:  #ae00ff;
+  --band-2:  #d400ff;
   --text-1: black;
   --text-2: white;
   --text-accent: white;

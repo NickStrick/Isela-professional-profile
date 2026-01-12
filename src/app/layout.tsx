@@ -20,7 +20,7 @@ import { mockSiteConfig } from "@/mocks/IselaConfig";
 export const metadata: Metadata = {
   title: "Isela Ortiz - Strategic Communication & Outreach Specialist",
   description:
-    "Isela Ortiz is a strategic communication and outreach specialist with a passion for connecting people and building meaningful relationships.",
+    "Isela Ortiz is a strategic communication, outreach specialist and content creator with a passion for connecting people and building meaningful relationships.",
 };
 
 

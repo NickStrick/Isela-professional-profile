@@ -15,7 +15,6 @@ const LINKEDIN = "https://www.linkedin.com/in/iselaiortiz/";
 const TIKTOK = "https://www.tiktok.com/@cutiewithanxiety";
 
 const EMAIL = "iselaortizreyna@gmail.com";
-const PHONE_HREF = "tel:17737540751";
 const RESUME_URL = "https://docs.google.com/document/d/1aWb8lWwNsCgAs4aOJF6-gD_-Cm8Op3E5WBkjM7gbgdY/edit?usp=sharing";
 
 export const mockSiteConfig: SiteConfig = {
@@ -308,7 +307,6 @@ export const mockSiteConfig: SiteConfig = {
       type: "contact",
       title: "Contact",
       email: EMAIL,
-      phone: { label: "(773) 754-0751", href: PHONE_HREF },
       address: "Chicago, IL",
       backgroundUrl: leaf.src,
     },
