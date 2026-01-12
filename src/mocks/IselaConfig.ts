@@ -10,6 +10,7 @@ import content from "../../public/isela/content.jpg";
 import team from "../../public/isela/team.jpg";
 import teamwork from "../../public/isela/teamwork.jpg";
 import leaf from "../../public/isela/leaf.jpg";
+import backdrop from "../../public/isela/isela-backdrop.jpg";
 
 import fernando from "../../public/isela/fernando.jpg";
 import madeline from "../../public/isela/madeline.jpg";
@@ -352,7 +353,7 @@ export const mockSiteConfig: SiteConfig = {
       title: "Contact",
       email: EMAIL,
       address: "Chicago, IL",
-      backgroundUrl: leaf.src,
+      backgroundUrl: backdrop.src,
       socials: [
         { label: "Download my Resume", href: RESUME_URL },
         { href: LINKEDIN, label: "LinkedIn" },
