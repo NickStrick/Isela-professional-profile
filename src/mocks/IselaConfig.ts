@@ -64,7 +64,7 @@ export const mockSiteConfig: SiteConfig = {
       subtitle:
         "Research Studies Recruitment Coordinator at Northwestern University with experience in participant outreach, presentations, event support, and scheduling coordination. Bilingual (English/Spanish). Short-form content creator with measurable engagement.",
       primaryCta: { label: "View LinkedIn", href: LINKEDIN },
-      secondaryCta: { label: "Contact", href: "#contact" },
+      secondaryCta: { label: "Download My Resume", href: RESUME_URL },
       imageUrl: headshot.src,
     },
 
@@ -353,6 +353,10 @@ export const mockSiteConfig: SiteConfig = {
       email: EMAIL,
       address: "Chicago, IL",
       backgroundUrl: leaf.src,
+      socials: [
+        { label: "Download my Resume", href: RESUME_URL },
+        // { label: "Text or Call (630) 303-8329", href: "tel:16303038329" },
+      ],
     },
 
     // ======================
