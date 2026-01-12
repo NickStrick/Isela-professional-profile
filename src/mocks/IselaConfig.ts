@@ -13,7 +13,7 @@ import leaf from "../../public/isela/leaf.jpg";
 
 import fernando from "../../public/isela/fernando.jpg";
 import madeline from "../../public/isela/madeline.jpg";
-import krystal from "../../public/isela/krystal.jpg";
+import krystal from "../../public/isela/Krystal.jpg";
 
 const LINKEDIN = "https://www.linkedin.com/in/iselaiortiz/";
 const TIKTOK = "https://www.tiktok.com/@cutiewithanxiety";
