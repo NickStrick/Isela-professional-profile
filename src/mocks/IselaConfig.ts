@@ -9,7 +9,6 @@ import organizer from "../../public/isela/event.jpg";
 import content from "../../public/isela/content.jpg";
 import team from "../../public/isela/team.jpg";
 import teamwork from "../../public/isela/teamwork.jpg";
-import leaf from "../../public/isela/leaf.jpg";
 import backdrop from "../../public/isela/isela-backdrop.jpg";
 
 import fernando from "../../public/isela/fernando.jpg";
