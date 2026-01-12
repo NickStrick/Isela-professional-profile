@@ -10,6 +10,7 @@ import content from "../../public/isela/content.jpg";
 import team from "../../public/isela/team.jpg";
 import teamwork from "../../public/isela/teamwork.jpg";
 import backdrop from "../../public/isela/isela-backdrop.jpg";
+import learn from "../../public/isela/learn.jpg";
 
 import fernando from "../../public/isela/fernando.jpg";
 import madeline from "../../public/isela/madeline.jpg";
@@ -238,6 +239,8 @@ export const mockSiteConfig: SiteConfig = {
         },
         {
           title: "How I learn and improve",
+          imageUrl: learn.src,
+          imageSize: "md",
           body:
             "I’m naturally curious, comfortable with feedback, and I iterate quickly, whether I’m improving outreach messaging, refining a presentation, or optimizing content based on engagement signals.",
           meta: [{ label: "Work style", value: "Ownership + iteration + follow-through" }],

@@ -176,6 +176,7 @@ body[data-theme="grove"]  {
       border-radius: var(--round-xl);
       box-shadow: var(--elev-2);
       border: 2px solid var(--bg-2);
+      min-height: 100%;
     }
     .card-2 { background-image: linear-gradient(
           to bottom right,
@@ -218,6 +219,7 @@ body[data-theme="grove"]  {
       color: white; max-width: 400px; margin: 0 auto;
       border-radius: var(--round-xl);
       box-shadow: var(--elev-1);
+      min-height: 100%;
     }
 
 /* Big headings */
